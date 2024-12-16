@@ -15,7 +15,7 @@
     </mdb-navbar>
     <!--/.Navbar-->
     <!-- Sidebar -->
-    <div class="sidebar-fixed position-fixed">
+    <div class="sidebar-fixed position-fixed ">
       <a class="logo-wrapper"
         ><img alt="" class="img-fluid" src="./assets/logo-mdb-vue-small.png"
       /></a>
@@ -40,13 +40,6 @@
             />Usuarios</mdb-list-group-item
           >
         </router-link>
-        <router-link to="/tables" @click.native="activeItem = 3">
-          <mdb-list-group-item
-            :action="true"
-            :class="activeItem === 3 && 'active'"
-            ><mdb-icon icon="table" class="mr-3" />Tables</mdb-list-group-item
-          >
-        </router-link>
       </mdb-list-group>
     </div>
     <!-- /Sidebar  -->
@@ -67,7 +60,7 @@
         </div>
         <hr class="my4" />
         <p class="footer-copyright mb-0 py-3 text-center">
-          &copy; {{ new Date().getFullYear() }} Copyright:
+          &copy; {{ new Date().getFullYear() }} Design by:
           <a href="https://mdbootstrap.com/docs/vue/"> MDBootstrap.com </a>
         </p>
       </ftr>

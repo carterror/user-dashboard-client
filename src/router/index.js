@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Dashboard from '@/components/Dashboard'
-import Tables from '@/components/Tables'
 import BadGateway from '@/components/BadGateway'
 import Users from '@/components/Users.vue';
 
@@ -24,12 +23,6 @@ export default new Router({
       component: Users,
       props: { page: 2 },
       alias: '/user'
-    },
-    {
-      path: '/tables',
-      name: 'Tables',
-      props: { page: 3 },
-      component: Tables
     },
     {
       path: '/404',
