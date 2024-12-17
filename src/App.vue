@@ -3,12 +3,12 @@
     <!--Navbar-->
     <mdb-navbar class="flexible-navbar white" light position="top" scrolling>
       <mdb-navbar-brand href="https://mdbootstrap.com/docs/vue/" target="_blank"
-        >MDB</mdb-navbar-brand
+        >User Dashboard</mdb-navbar-brand
       >
       <mdb-navbar-toggler>
         <mdb-navbar-nav right>
           <mdb-nav-item to="/" waves-fixed active class="active"
-            >Home</mdb-nav-item
+            >Dashboard</mdb-nav-item
           >
         </mdb-navbar-nav>
       </mdb-navbar-toggler>

@@ -1,21 +1,46 @@
-# mdb-admin-template
+### **Documentación Fontend User Dashboard**
+----------
 
-> MDB Admin Dashboard
+**Proyect Kanban**
+https://github.com/users/carterror/projects/9
 
-## Build Setup
+**Proyect Backend**
+https://github.com/carterror/user-dashboard-server
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+Instrucciones para instalar, configurar y ejecutar:
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+-----------
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+2. **serve with hot reload at [127.0.0.1:8080](http://localhost:8080/):**
+   ```bash
+   npm start
+   ```
+
+3. **Build for production with minification:**
+   ```bash
+   npm run build
+   ```
+
+4. **Build for production and view the bundle analyzer report (Optional):**
+   ```bash
+   touch database/database.sqlitenpm run build --report``
+
+5. **Create Database (Optional):**
+   ```bash
+   
+   ```
+
+9. **Start Your Favorite Browser**
+    - Web App: [127.0.0.1:8080](http://localhost:8080/)
+
+
+
+
+
+
